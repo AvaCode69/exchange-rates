@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #eee;
+}
+
+.form-row {
+ /* width: 50% !important; */
+  margin: 0 auto;
+  /* margin-top: 9%; */
+  -webkit-box-shadow: 0px -6px 44px 0px rgba(176, 170, 176, 1);
+  -moz-box-shadow: 0px -6px 44px 0px rgba(176, 170, 176, 1);
+  box-shadow: 0px -6px 44px 0px rgba(176, 170, 176, 1);
+  padding: 2% 3%;
+  border-radius: 12px;
+}
+
+.btn {
+  margin: 17px auto;
+}
+
+.form-row input {
+  margin: 6px auto;
+}
+
+.eqaltxt {
+  border: 1px solid #ccc;
+  background: #fff;
+  text-align: center;
+  padding: 4% 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #585858;
+  margin-top: 11px;
+}
+.err-stl {
+  font-size: 24px;
+  font-weight: 500;
+}
+.hid-bar{
+  display: none;
+}
+.chart-container {
+  margin-bottom: 5rem;
+}
+.bx-frst {
+  margin-top: 9%;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 980px) {
+  .form-row {
+    width: 83% !important;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
